@@ -1,0 +1,35 @@
+
+$ npm init vite-app vuepractice3
+$ cd vuepractice3
+#$ npm init -y
+$ npm install
+$ npm run dev
+
+[vite] Optimizable dependencies detected:
+vue
+
+  Dev server running at:
+  > Network:  http://xx.xxx.xxx.xxx:3000/
+  > Local:    http://localhost:3000/
+
+1) Change the code A to B
+A +++++++++++++++++++++++++++++
+<template>
+  <img alt="Vue logo" src="./assets/logo.png" />
+  <HelloWorld msg="Hello Vue 3.0 + Vite" />
+</template>
+B +++++++++++++++++++++++++++++
+<template>
+<section>
+    <img alt="Vue logo" src="./assets/logo.png">
+    <HelloWorld msg="Welcome to Your Vue.js App" />
+</section>
+</template>
++++++++++++++++++++++++++++++
+
+2) Adjust name 'App' and 'app'
+
+3) If the error "Permission to yuribing/vuepractice.git denied to beerneko". Simply delete the old credential user for Git from Credential Manager. Becourse Github thinks your Local machine Git credential is different github account user.
+Check by 
+  $ git config --system --list
+
