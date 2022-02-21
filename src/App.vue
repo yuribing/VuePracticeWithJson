@@ -1,18 +1,18 @@
 <template>
 <section>
     <img alt="Vue logo" src="./assets/logo.png">
-<!--    <HelloWorld msg="Welcome to Your Vue.js App" />-->
     <HelloWorld />
+    <Member />
 </section>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Member from './components/Member.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Member
   }
 }
 </script>
